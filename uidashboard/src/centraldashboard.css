@@ -1,0 +1,112 @@
+.central-dashboard {
+    padding: 20px;
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .main-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+  }
+  
+  .section-title {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .monitoring-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .monitoring-label {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .status-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .status-dot.online {
+    background-color: #4CAF50;
+  }
+  
+  .location-coordinates {
+    font-size: 18px;
+    font-family: 'Courier New', monospace;
+    color: #333;
+  }
+  
+  .health-status {
+    font-size: 18px;
+    color: #4CAF50;
+    font-weight: 500;
+  }
+  
+  .divider {
+    margin: 25px 0;
+    border-color: #eee;
+  }
+  
+  .config-item {
+    margin-bottom: 15px;
+  }
+  
+  .config-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .config-divider {
+    margin: 8px 0;
+    border-color: #eee;
+  }
+  
+  .config-switch {
+    margin-top: 5px;
+  }
+  
+  .config-status {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+  
+  .MuiSwitch-switchBase {
+    color: #bbb;
+  }
+  
+  .MuiSwitch-switchBase.Mui-checked {
+    color: #4CAF50;
+  }
+  
+  .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+    background-color: #4CAF50;
+  }

@@ -1,0 +1,56 @@
+.menu {
+    width: 250px; 
+    height: 100vh;
+    background-color: #1a2d4a; /* Darker blue to match logo background */
+    color: white;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  .menu-logo {
+    height: 40px; /* Adjust size as needed */
+    width: auto;
+    /* Remove this line: filter: brightness(0) invert(1); */
+  }
+  
+  .menu-title {
+    margin-bottom: 30px;
+    font-size: 24px; 
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    cursor: pointer; 
+    font-size: 16px; 
+    text-align: left;
+    display: block;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    color: rgba(255,255,255,0.9);
+  }
+  
+  .menu-list li:hover {
+    background-color: #2a3d5a;
+    color: white;
+  }

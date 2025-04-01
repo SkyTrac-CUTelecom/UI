@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.menu {
+  width: 250px; /* Fixed width for menu */
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+}
+
+.central-dashboard {
+  flex: 1; /* Takes remaining space */
+  padding: 20px;
+}
